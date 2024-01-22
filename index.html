@@ -27,7 +27,7 @@
               placeholder="Enter your city"
               required
             />
-            <input id="search-button" type="submit" value="Search" />
+            <input class="search-button" type="submit" value="Search" />
           </form>
         </section>
         <span class="current-span">
@@ -37,10 +37,13 @@
             <p>
               Heavy thunderstorms
               <br />
-              Humidity: 97%, Wind: 20mph
+              Humidity: <span class="current-condition-data">97%</span>, Wind:
+              <span class="current-condition-data">20mph</span>
             </p>
           </div>
-          <div class="current-temp">⛈️ 58°F</div>
+          <div class="current-temp">
+            <span id="current-emoji">⛈️ </span>58°F
+          </div>
         </span>
         <footer>
           Coded by

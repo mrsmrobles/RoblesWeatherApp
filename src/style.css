@@ -18,6 +18,7 @@ h1 {
 }
 h3 {
   margin-top: 0;
+  color: #d7819c;
 }
 p {
   padding-top: 0px;
@@ -39,7 +40,7 @@ footer {
 }
 input.city,
 ::placeholder {
-  color: white;
+  color: rgba(255, 255, 255, 0.764);
   background: linear-gradient(
     360deg,
     rgb(164, 111, 214) 0%,
@@ -60,14 +61,21 @@ input.city,
   width: 86%;
 }
 .search-button {
-  background-color: rgb(225, 225, 225);
+  background-color: #9667cb32;
   box-shadow: 2px 5px 7px rgba(114, 114, 114, 0.41);
+}
+.current-condition-data {
+  color: #ad71c2;
+  font-weight: bold;
 }
 #logo {
   height: 60px;
 }
+#current-emoji {
+  font-size: 45px;
+}
 #application {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.834);
   border: none;
   border-radius: 30px;
   max-width: 600px;
