@@ -9,6 +9,11 @@ main {
 }
 h1 {
   color: rgb(0, 0, 0);
+  font-size: 45px;
+  font-family: "Poppins", sans-serif;
+}
+p {
+  font-family: "Quicksand", sans-serif;
 }
 input {
   height: 40px;
@@ -16,7 +21,11 @@ input {
   border: none;
   border-radius: 10px;
   font-size: 18px;
-  font-family: Arial, Helvetica, sans-serif;
+}
+footer {
+  border-top: 1px solid rgba(211, 211, 211, 0.528);
+  padding-top: 20px;
+  text-align: center;
 }
 input.city,
 ::placeholder {
@@ -26,6 +35,12 @@ input.city,
     rgb(164, 111, 214) 0%,
     rgb(139, 102, 241) 100%
   );
+}
+.current-temp {
+  font-size: 60px;
+}
+.city {
+  width: 86%;
 }
 #search-button {
   background-color: rgb(225, 225, 225);
@@ -42,4 +57,5 @@ input.city,
   margin: 100px auto;
   padding: 30px;
   box-shadow: 10px 30px 50px rgba(41, 34, 56, 0.41);
+  font-family: "Quicksand", sans-serif;
 }
