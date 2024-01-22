@@ -7,6 +7,9 @@ main {
   height: 700px;
   margin: 0;
 }
+#logo {
+  height: 100px;
+}
 #application {
   background-color: white;
   border: none;
