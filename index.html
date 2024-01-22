@@ -20,9 +20,10 @@
       </header>
       <div id="application">
         <section>
-          <form>
+          <form id="search-form">
             <input
               class="city"
+              id="city-search"
               type="search"
               placeholder="Enter your city"
               required
@@ -32,7 +33,7 @@
         </section>
         <span class="current-span">
           <div class="current-conditions">
-            <h1>San Diego</h1>
+            <h1 id="city-heading">San Diego</h1>
             <h3>Monday 10:53 am</h3>
             <p>
               Heavy thunderstorms
@@ -60,5 +61,6 @@
         </footer>
       </div>
     </main>
+    <script src="src/script.js"></script>
   </body>
 </html>
