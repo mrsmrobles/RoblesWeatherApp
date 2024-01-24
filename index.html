@@ -16,8 +16,13 @@
   <body>
     <main>
       <header>
-        <img id="logo" src="/images/Blue Complex Cloud Logo.png" alt="weather
-        logo";
+        <img
+          id="logo"
+          src="/images/Blue Complex Cloud Logo.png"
+          alt="weather
+        logo"
+          ;
+        />
       </header>
       <div id="application">
         <section>
@@ -32,7 +37,7 @@
             <input class="search-button" type="submit" value="Search" />
           </form>
         </section>
-        <span class="current-span">
+        <div class="current-weather">
           <div class="current-conditions">
             <h1 id="city-heading"></h1>
             <h3><span id="time"></span><span id="description"></span></h3>
@@ -42,10 +47,13 @@
               <span class="current-condition-data" id="wind"></span>
             </p>
           </div>
-          <div class="current-temp">
-            <span id="current-emoji">⛈️ </span><span id="current-temp"></span>°F
+          <div class="current-temp-container">
+            <div id="icon">
+            </div>
+            <div id="current-temp"></div>
+            <div class="temp-unit">°F</div>
           </div>
-        </span>
+        </div>
         <footer>
           Coded by
           <a href="https://github.com/mrsmrobles" target="_blank"
